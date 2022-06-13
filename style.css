@@ -1,3 +1,74 @@
-h1 {
-    color: green;
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgba(255, 228, 196, 0.811);
+    text-align: center;
+}
+
+.main {
+    width: 70%;
+    margin: 0 auto;
+    border: 2px solid black;
+    display: inline-block;
+    font-size: 0;
+    
+}
+
+.left_info {
+    width: 30%;
+    display: inline-block;
+    font-size: 0;
+    background-color: #4d4d4d;
+    color: white;
+    padding: 20px;
+    height: 100%;
+    text-align: left;
+    vertical-align: top;
+}
+
+.info_photo img {
+    display: block;
+    margin: 0 auto;
+}
+
+.info_contacts, .info_skills, .info_training {
+    font-size: initial;
+}
+
+.info_contacts a{
+    text-decoration: none;
+    color: white;
+    transition: color 0.2s linear;
+}
+
+.info_contacts a:hover{
+    color: coral;
+}
+
+.white_divider{
+    height: 2px;
+    width: 70%;
+    background-color: white;
+}
+
+.right_info {
+    width: 70%;
+    display: inline-block;
+    font-size: 0;
+    background-color: white;
+    color: black;
+    text-align: left;
+    padding: 20px;
+}
+
+.info_name, .info_aboutMe, .info_str, .info_education, .info_code, .info_lang{
+    font-size: initial;
+}
+
+.black_divider{
+    height: 2px;
+    width: 70%;
+    background-color: black;
 }
